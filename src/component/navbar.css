@@ -1,0 +1,63 @@
+
+/* .me-auto{
+  padding-left: 900px;
+} */
+
+.topic{
+  font: small-caps bold 30px/1 sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  color:rgb(239, 246, 249);
+}
+
+ /*Responsive Design */
+  @media (max-width: 768px) {
+  .swiper {
+    height: 250px;
+  }
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    height: 200px;
+  }
+  .gallery-title {
+    font-size: 1.6rem;
+    font-weight: bolder;
+  }
+  
+}
+.nav-item {
+  font-size: 1rem;
+  padding: 8px 15px;
+  color: white;
+}
+
+
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+}
+
+.navlogo {
+  width: 50px; /* Adjust based on preference */
+  height: 50px; /* Keep square for proper border-radius */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the logo fills the space nicely */
+}
+/* .nav-item {
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+} */
+.nav-item:hover {
+  color: #ff4d4d !important; /* Change color on hover */
+}
+
+

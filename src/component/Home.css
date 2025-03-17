@@ -1,0 +1,226 @@
+/* 
+
+
+.gallery-container {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+   
+  }
+  
+  .custom-hr {
+    width: 60%;      
+    border: none;    
+    height: 5px;      
+    background-color: 
+    #214561; 
+    margin: 20px auto; 
+}
+  
+  .gallery-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1b1873;
+    font-family: 'popines',sans-serif;
+  }
+  
+  .swiper {
+   margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+   
+  }
+  .flic{
+    display: flex;
+    
+   
+ 
+  }
+  .plic{
+    display: flex;
+    
+  }
+  .himg{
+    height: 500px;
+    width: 1300px;
+  }
+  
+  @media (max-width: 768px) {
+    .swiper {
+      height: 250px;
+      
+    }
+    .imgres{
+      height: 250px;
+    }
+    .gallery-title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .swiper {
+      height: 200px;
+    }
+    .imgres{
+      height: 200px;
+    }
+    .gallery-title {
+      font-size: 1.6rem;
+      font-weight: bolder;
+    }
+  }
+  
+ 
+   */
+   /* ===== Gallery Container ===== */
+.gallery-container {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+.homebg{
+  background-image:url(../../public/img/building-dreamy-setting.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background in place while scrolling */
+    /* min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* padding: 20px; */
+}
+/* ===== Section Title ===== */
+.gallery-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1b1873;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* ===== Custom Horizontal Line ===== */
+.custom-hr {
+  width: 60%;      
+  border: none;    
+  height: 5px;      
+  background-color: #214561; 
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+/* ===== Swiper Styles ===== */
+.swiper {
+  margin-top: 40px;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ===== Swiper Slide Image ===== */
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Large Hero Image ===== */
+.himg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ===== Two Column Layout (for Desktop) ===== */
+.flic, .plic {
+  display: flex;
+  gap: 20px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1024px) {
+  .himg {
+      height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+      height: 250px;
+  }
+  
+  .imgres {
+      height: 250px;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .gallery-title {
+      font-size: 1.5rem;
+  }
+  
+  .himg {
+      height: 350px;
+  }
+  
+  .flic, .plic {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+      height: 200px;
+  }
+
+  .imgres {
+      height: 200px;
+  }
+
+  .gallery-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+  }
+
+  .himg {
+      height: 250px;
+  }
+}
+
+/* ===== Button Styling (If Needed) ===== */
+.btn-primary {
+  background-color: #214561;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #16344d;
+}

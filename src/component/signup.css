@@ -1,0 +1,114 @@
+/* Page background and centering */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #f8f9fa; /* Light gray background */
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Main container styling */
+  .signup-container {
+    background: #ffffff; /* White background */
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title and subtitle styling */
+  .signup-title {
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+    color: #333333; /* Dark gray */
+  }
+  
+  .signup-subtitle {
+    font-size: 14px;
+    color: #777777; /* Medium gray */
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .signup-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 25px;
+    background: #f9f9f9;
+    font-size: 14px;
+    color: #555555; /* Dark gray text */
+    outline: none;
+  }
+  
+  .signup-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    background: #ffffff; /* White background */
+  }
+  
+  /* Button styling */
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Footer styling */
+  .signup-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .signup-footer a {
+    color: #007bff; /* Blue link */
+    text-decoration: none;
+  }
+  
+  .signup-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message styling */
+  .signup-error {
+    color: #ff0000; /* Red text */
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  /* .signbg{
+    background-image: url(../../public/img/4303692.jpg);
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .signup-container {
+      padding: 30px;
+    }
+  
+    .signup-title {
+      font-size: 20px;
+    }
+  
+    .signup-button {
+      font-size: 14px;
+    }
+  }
+  

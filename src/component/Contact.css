@@ -1,0 +1,20 @@
+
+
+.send{
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.sen{
+    background-color: blue;
+    color: white;
+}
+
+.contact-container{
+  width:700px ;
+  height: 800px;
+  border-radius: 15px;
+}
